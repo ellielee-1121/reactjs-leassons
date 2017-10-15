@@ -1,10 +1,15 @@
 var TodoItem = React.createClass({
+  onClick: function () {
+    this.props.toggleItem(this.props.id);
+  },
   render: function () {
+    var className = 'todo-item';
+    if (this.props.done) {
+      className += ' done';
+    }
     return (
-      <li className="todo-item">
-        {this.props.children}
-        -
-        {String(this.props.done)}
+      <li className={className} onClick={this.onClick}>
+        {this.props.children} ({this.props.id})
       </li>
     );
   },
