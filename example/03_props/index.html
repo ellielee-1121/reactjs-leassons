@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      var Agent = React.createClass({
+        getDefaultProps: function () {
+          return {
+            img: './imgs/default.jpg',
+            name: '姓名',
+            children: '發言',
+          };
+        },
+        render: function () {
+          return (
+            <div className="agent">
+              <img className="img" src={this.props.img} />
+              <div className="name">{this.props.name}</div>
+              <div className="quote">{this.props.children}</div>
+            </div>
+          );
+        },
+      });
+
+      ReactDOM.render(
+        <div>
+          <h1>我們的客服</h1>
+          <Agent img="./imgs/Judi.jpg" name="Judi Anderson">我是 Judi, 您好!</Agent>
+          <Agent img="./imgs/John.jpg" name="John Stewart">去找 Judi 不要找我</Agent>
+          <Agent />
+        </div>,
+        document.getElementById('app')
+      );
+    </script>
+  </body>
+</html>

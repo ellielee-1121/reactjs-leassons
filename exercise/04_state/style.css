@@ -1,0 +1,23 @@
+body{
+  text-align: center;
+  background: #282c34;
+  font-family: 'Arial', 'Microsoft JhengHei';
+}
+.counter{
+  width: 240px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 12px 24px;
+}
+.count{
+  font-size: 64px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 12px 0;
+}
+button{
+  width:  120px;
+  height: 30px;
+  line-height: 30px;
+}

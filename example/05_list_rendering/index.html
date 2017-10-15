@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      var steps = [
+        '學會 JS',
+        '學會 React',
+        '投遞履歷',
+        '年薪百萬',
+      ];
+
+      var List = React.createClass({
+        render: function () {
+          return (
+            <ol className="list">
+              {
+                steps.map(function (text) {
+                  return <li>{text}</li>;
+                })
+              }
+            </ol>
+          );
+        },
+      });
+
+      ReactDOM.render(
+        <List />,
+        document.getElementById('app')
+      );
+    </script>
+  </body>
+</html>

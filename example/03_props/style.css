@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  background: #282c34;
+  color: white;
+  font-family: 'Arial', 'Microsoft JhengHei';
+}
+.agent{
+  width: 360px;
+  margin: 20px auto;
+  padding: 12px;
+  border-radius: 12px;
+  background: #3d4148;
+  cursor: pointer;
+}
+.agent:hover{
+  background-color: #50545a;
+}
+.img{
+  height: 80px;
+  border-radius: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 1px 1px 2px #666;
+}
+.name{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+  font-size: 32px;
+  color: white;
+  text-shadow: 1px 1px 2px #666;
+}
+.quote{
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px #666;
+}

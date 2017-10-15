@@ -1,0 +1,9 @@
+body{
+  background: #282c34;
+  color: white;
+}
+.my-component{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
