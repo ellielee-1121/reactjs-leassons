@@ -1,0 +1,74 @@
+/*Simple CSS-Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 30px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+
+/*major*/
+
+#app {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.status {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    color: darkblue;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+#app .square:focus {
+    background: #ddd;
+    outline: none;
+}
+
+.info {
+    margin-left: 30px;
+    font-size: 20px;
+}
