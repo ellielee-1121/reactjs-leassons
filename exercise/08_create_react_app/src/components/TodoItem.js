@@ -1,11 +1,11 @@
-/* eslint-disable */
-var TodoItem = React.createClass({
-  onClick: function () {
-    this.props.toggleItem(this.props.id);
-  },
+import React, {Component} from 'react';
 
-  render: function () {
-    var className = 'todo-item';
+class TodoItem extends component{
+  onClick =() =>{
+    this.props.toggleItem(this.props.id);
+  }
+  render(){
+    let className = 'todo-item';
     if (this.props.done) {
       className += ' done';
     }
@@ -13,6 +13,6 @@ var TodoItem = React.createClass({
       <li className={className} onClick={this.onClick}>
         {this.props.children}
       </li>
-    );
-  },
-});
+    )
+  }
+}
