@@ -1,0 +1,15 @@
+1. Uncontrolled input
+2. Controlled input
+3. rcc + tab
+4. ref 用在組件 是元素
+5. array.filter(element, idx, array)
+   return bool
+6. static 
+
+7.作業 slider 下面的thumbnails (新增一個組件)
+
+<ImageSliderThumbs
+  img ={imgs}
+  currentIdx={currentIdx}
+  setCurrentIdx ={this.setCurrent}
+/>
