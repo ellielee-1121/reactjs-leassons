@@ -1,0 +1,33 @@
+.product{
+  font-size: 1.2em;
+  padding: 8px;
+}
+
+.product>.title{
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+}
+
+.product>.price{
+  display: inline-block;
+  width: 80px;
+}
+.product>.price:before{
+  content: '$'
+}
+
+.product>.inventory{
+  display: inline-block;
+  width: 100px;  
+}
+.product>.inventory:before{
+  content: '庫存: ';
+}
+.product>.quantity{
+  display: inline-block;
+  width: 100px;  
+}
+.product>.quantity:before{
+  content: '數量: ';
+}
