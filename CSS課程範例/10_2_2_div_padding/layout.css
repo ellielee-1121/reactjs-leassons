@@ -1,0 +1,30 @@
+@import url("reset.css");
+
+#BOX{
+	width:710px;
+	height:550px;
+	margin:0 auto;
+	background-image:url(Flycan_Box_800.jpg);
+	font-family:"微軟正黑體";
+	
+	padding:50px 45px 0 45px; /*div外框四周的間距*/
+}
+
+#BOX h1{
+	font-size:25px;
+	padding-bottom:15px; /*文字自己的下間距*/
+}
+
+#BOX h2{
+	font-size:17px;
+	padding-bottom:10px; /*文字自己的下間距*/
+}
+
+#BOX p{
+	font-size:13px;
+	line-height:1.6;
+	padding-bottom:10px; /*文字自己的下間距*/
+}
+
+
+

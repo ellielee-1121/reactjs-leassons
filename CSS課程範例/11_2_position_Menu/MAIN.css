@@ -1,0 +1,39 @@
+@import url("reset.css");
+#HEADER {
+	width:900px;
+	height:120px;
+	margin:0 auto;
+	background-image:url(banner.jpg);
+	position:relative;
+}
+#HEADER img {
+	position:absolute;
+	top:40px;
+	left:30px;
+}
+#HEADER ul {
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+#HEADER li {
+	float:left;
+}
+#HEADER li a {
+	display:block;
+	width:126px;
+	height:100px;
+	line-height:100px;
+	background-image:url(btn.jpg);
+	text-align:center;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Arial;
+	font-size:12px;
+	letter-spacing:1px;
+}
+#HEADER li a:hover {
+	background-position:left bottom;
+	color:#336699;
+}

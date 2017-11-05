@@ -1,0 +1,110 @@
+@import url("reset.css");
+
+body{
+	background-color:#ccc;
+	font-family:"微軟正黑體";
+}
+
+#ARTICLE{
+	width:828px;
+	background-color:#FFF;
+	margin:0 auto;
+	padding:10px;
+	
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+#ARTICLE #CONTENT{
+	padding:10px 0;
+}
+
+#ARTICLE #CONTENT p{
+	font-size:15px;
+	line-height:1.6;
+	padding-bottom:15px;
+	letter-spacing:1px;
+}
+
+/*=================================================*/
+
+#TOP{
+	width:100%;
+	background-color:#039;
+	height:50px;
+	
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:10;
+}
+
+#TOP ul{
+	float:right;
+}
+
+#TOP li{
+	float:left;
+}
+
+#TOP li a{
+	display:block;
+	line-height:50px;
+	padding:0 20px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+#TOP li a:hover{
+	background-color:#036;
+}
+
+#FOOTER{
+	background-color:#000;
+	
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+}
+
+#FOOTER h3{
+	color:#FFF;
+	line-height:50px;
+	text-align:center;
+	font-weight:normal;
+	font-size:15px;
+}
+
+#SIDE{
+	width:150px;
+	
+	position:absolute;
+	right:10px;
+	top:300px;
+}
+
+#SIDE ul{}
+
+#SIDE li{}
+
+#SIDE li a{
+	display:block;
+	background-image:url(btn.png);
+	width:150px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	text-decoration:none;
+	font-size:13px;
+	color:#fff;
+}
+
+#SIDE li a:hover{
+	background-position:left bottom;
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+body{
+	    background-image:url(../../css1-1/paper.jpg);
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:50px;
+		padding-right:60px;
+		letter-spacing:10px;}
+		
+		
+		
+h1{
+	 font-size:2em;
+	 color:#C99;
+	 text-align:center;
+	 }		
+	 
+h2{
+	font-size:1.5em;
+	color:#3CC;
+	}
+	
+	
+p{
+	font-size:0.5em;
+	color:#CF0;
+	}		 

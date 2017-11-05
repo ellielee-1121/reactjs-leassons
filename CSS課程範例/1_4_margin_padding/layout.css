@@ -1,0 +1,35 @@
+
+body{
+	background-image:url(bg.jpg);
+	font-family:"Segoe UI", "Trebuchet MS", Verdana, sans-serif, "MS UI Gothic", "微軟正黑體";
+
+}
+
+div{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:40px;
+	background-color:#FFF;
+	padding-right:40px;
+	padding-top:60px;
+
+}
+
+h1{
+	font-size:66px;
+	font-family:Verdana, Arial, "微軟正黑體", "新細明體";
+	text-align:center;
+	letter-spacing:2px;
+	
+	
+}
+
+p{font-size:18px;
+   line-height:2;
+   text-align:justify;
+   text-indent:2em;
+	
+}
+
+

@@ -1,0 +1,36 @@
+@import url("reset.css");
+
+#HEADER {
+	width:880px;
+	height:220px;
+	margin:0 auto;
+}
+#HEADER img {
+	float:left;
+}
+#HEADER #BOX {
+	float:right;
+	width:580px;
+	height:190px;
+	font-family:Arial, "微軟正黑體", sans-serif;
+	background-image:url(right.jpg);
+	padding:30px 30px 0 30px;
+}
+#HEADER #BOX h2 {
+	font-size:20px;
+	line-height:35px;
+	letter-spacing:1px;
+	padding-bottom:10px;
+}
+#HEADER #BOX p {
+	font-size:12px;
+	line-height:20px;
+	letter-spacing:1px;
+	padding-bottom:10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#AAA;
+	font-family:"微軟正黑體", Arial;
+}
+
+#TOP{
+	width:960px;
+	height:300px;
+	background-image:url(flycan-07.jpg);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#CENTER{
+	width:960px;
+	height: 460px;
+	background-color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 30px;
+}
+
+.BOX{
+	width: 280px;
+	height: 410px;
+	background-image:url(BOX.jpg);
+
+	float: left;
+	margin-left: 30px;
+}
+
+h2{
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom:16px;
+	border-bottom:3px dotted #fff;
+	text-align:center;
+	background-color:#0039a6;
+	color:#fff;
+}
+
+p{
+	font-size:13px;
+	line-height:1.6;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+

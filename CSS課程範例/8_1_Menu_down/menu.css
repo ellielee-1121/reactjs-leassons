@@ -1,0 +1,56 @@
+
+*{ margin:0; padding:0;}
+
+body{
+	margin-top: 80px;
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+}
+
+#HEADER {
+	width:828px;
+	height:248px;
+	margin:0 auto;
+}
+
+#HEADER #PIC {
+	display:block;
+	width:828px;
+	height:188px;
+	background-image:url(banner.png);
+}
+
+#HEADER #PIC h1{
+	color: #fff;
+  	font-family: Verdana;
+  	font-size: 42px;
+  	letter-spacing: 2px;
+	float: right;
+	padding-top: 80px;
+	padding-right: 40px;
+}
+
+#HEADER ul {
+	list-style-type:none;
+}
+
+#HEADER li {
+	float:left;
+}
+
+#HEADER li a {
+	display:block;
+	width:138px;
+	height:45px;
+	font-size:15px;
+	line-height:45px;
+	background-image:url(button.png);
+	text-align:center;
+	text-decoration:none;
+	color:#000000;
+	font-family:Arial;
+}
+
+#HEADER li a:hover {
+	color:#369;
+}
+

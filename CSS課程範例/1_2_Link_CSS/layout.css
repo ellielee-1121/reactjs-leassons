@@ -1,0 +1,18 @@
+
+body{
+	background-image: url(paper.jpg);
+	font-family:"微軟正黑體", Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size:50px;
+	color:#222;
+	text-align:center;
+}
+h2{
+	font-size:20px;
+	color:#222;
+}
+p{
+	font-size:15px;
+	color:#333;
+}

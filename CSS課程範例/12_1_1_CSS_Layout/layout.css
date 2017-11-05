@@ -1,0 +1,98 @@
+@import url("reset.css");
+
+body{
+	background-color:#999;
+	font-family:"微軟正黑體";
+}
+
+/* ===頁首區=== */
+
+#HEADER{
+	width:960px;
+	height:300px;
+	margin:0 auto;
+	background-image:url(images/banner.png);
+	position: relative;
+}
+
+#HEADER h1{
+	color: #fff;
+	font-size: 28px;
+	position: absolute;
+	right: 40px;
+	top: 80px;
+}
+
+/* ===主選單區=== */
+
+#NAV{
+	width:960px;
+	margin:0 auto;
+	background-color:#F90;
+	overflow:hidden;
+}
+
+#NAV ul{}
+
+#NAV li{
+	float:left;
+}
+
+#NAV li a{
+	display:block;
+	width:120px;
+	height:50px;
+	line-height:50px;
+	background-color:#000;
+	font-size:15px;
+	color:#FFF;
+	letter-spacing:2px;
+	text-align:center;
+	text-decoration:none;
+	border-top:5px solid #333;
+}
+
+#NAV li a:hover{
+	background-color:#555;
+	border-top:5px solid #DDD;
+}
+
+
+/* ===內容區=== */
+
+#CONTENT{
+	clear:both;
+	width:960px;
+	margin:0 auto;
+	background-color:#FFF;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#CONTENT p{
+	font-size:15px;
+	line-height:1.7;
+	padding:0 30px;
+	padding-bottom:15px;
+}
+
+
+/* ===頁尾區=== */
+
+#FOOTER{
+	width:960px;
+	margin:0 auto;
+	background-color:#000;
+	border-top:5px solid #444;
+}
+
+#FOOTER h2{
+	font-size:15px;
+	text-align:center;
+	line-height:60px;
+	color:#FFF;
+}
+
+
+
+

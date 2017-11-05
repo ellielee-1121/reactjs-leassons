@@ -1,0 +1,39 @@
+
+body{
+	background-image:url(paper.jpg);
+	font-family:"Segoe UI", "Trebuchet MS", Verdana, sans-serif, "MS UI Gothic", "微軟正黑體";
+	padding-top:50px;
+}
+
+div{
+	width:860px;
+	height:520px;
+	background-image:url(../../css1-1/Ribbon_Box.png);
+	margin-left:auto;
+	margin-right:auto;
+	
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:80px;
+	
+	
+}
+
+h1{
+	font-size:25px;
+	font-family:Arial, "微軟正黑體", "新細明體";
+	text-align:center;
+	letter-spacing:1.5px;
+	
+}
+
+p{
+	font-size:12px;
+	line-height:1.8;
+	text-align:justify;
+	text-indent:2em;
+	
+	
+}
+
+

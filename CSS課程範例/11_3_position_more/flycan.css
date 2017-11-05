@@ -1,0 +1,75 @@
+@import url("reset.css");
+
+body{
+	background-color:#e5e5e5;
+	font-family:"微軟正黑體";
+	padding-top:50px;
+}
+
+#BOX{
+	width:800px;
+	background-color:#fff;
+	margin:0 auto;
+	padding:10px;
+	
+	position:relative;
+}
+
+#BOX #LOGO{
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+#BOX #NAV{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+#BOX #NAV li{
+	float:left;
+	border-right:1px solid #fff;
+}
+
+#BOX #NAV li a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	line-height:50px;
+	padding:0 20px;
+	background-color:#013567;
+}
+
+#BOX #NAV li a:hover{
+	background-color:#000;
+	color:#FF0;
+}
+
+#BOX #CONTENT{
+	margin-top:70px;
+	margin-bottom:60px;
+}
+
+#BOX #CONTENT p{
+	line-height:1.6;
+	font-size:13px;
+	padding-bottom:15px;
+}
+
+#BOX h2{
+	display:block;
+	background-color:#013567;
+	color:#fff;
+	line-height:50px;
+	font-size:15px;
+	text-align:center;
+	
+	position:absolute;
+	left:10px;
+	bottom:10px;
+	width:800px;
+}
+
+

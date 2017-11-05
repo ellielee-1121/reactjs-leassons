@@ -1,0 +1,17 @@
+@import url("reset.css");
+
+#HEADER {
+	width:800px;
+	height:200px;
+	margin:0 auto;
+	background-image:url(banner.gif);
+	position:relative;
+}
+
+#HEADER h1 {
+	position:absolute;
+	top:115px;
+	right:75px;
+}
+
+

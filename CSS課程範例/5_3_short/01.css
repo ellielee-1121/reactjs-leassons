@@ -1,0 +1,20 @@
+
+body{
+	background-image:url(935916_64445d179.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-attachment:fixed;
+	
+	/* 縮寫 */
+	/*background:#FFF url(935916_64445d179.jpg) no-repeat left top fixed;*/
+}
+
+#BOX{
+	margin-left:500px;
+	margin-right:50px;
+}
+	
+#BOX p{
+	text-align:justify;
+	font-family:Arial, Helvetica, sans-serif;
+}	

@@ -1,0 +1,52 @@
+body{ margin:0;}
+
+/* div 欄位 */
+#CONTENT {
+	width:880px;
+	font-family: '微軟正黑體';
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* 內容 使用後代選取器 */
+#CONTENT h2 {
+	display:block;
+	width:880px;
+	height:50px;
+	background-image:url(images/top.png);
+  	color: #998675;
+	font-family: Arial;
+  	font-size: 15px;
+  	text-align: center;
+  	line-height: 50px;
+	margin:0;
+}
+#CONTENT h1 {
+	display:block;
+	width:860px;
+	height:180px;
+	background-image:url(images/banner.png);
+  	color: #664e38;
+  	text-align: right;
+  	padding-top: 20px;
+  	padding-right: 20px;
+	margin:0;
+}
+#CONTENT h3 {
+	display:block;
+	width:880px;
+	height:50px;
+	background-image:url(images/down.png);
+  	color: #664e38;
+  	font-size: 13px;
+  	text-align: center;
+  	line-height: 50px;
+	margin:0;
+}
+#CONTENT p {
+	font-size:13px;
+	color:#333333;
+	line-height:1.6;
+	letter-spacing:1px;
+}
+

@@ -1,0 +1,27 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 900px;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	width: 180px;
+	height: 40px;
+	background-image: url(button_01.gif);
+	line-height: 40px;
+	text-indent: 15px;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+li a:hover {
+	background-image: url(button_02.gif);
+}
+
